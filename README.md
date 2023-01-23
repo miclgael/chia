@@ -12,7 +12,7 @@ Check out the [Nuxt 3 documentation](https://nuxt.com) to learn more about Nuxt 
 
 - [x] 🎨 Pico.css minimal CSS framework
 - [x] 📚 Storybook
-- [x] 🏗️ 4 Starter components (`v-grid`, `v-section`, `v-markup`, `v-button`), with stories and unit tests
+- [x] 🏗️ 4 Starter components (`c-grid`, `c-section`, `c-markup`, `c-button`), with stories and unit tests
 - [x] 💚 Vite-friendly
 - [x] 😎 BYO everything else!
 - [x] ✨ `pnpm` by default
