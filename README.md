@@ -19,10 +19,10 @@ Check out the [Nuxt 3 documentation](https://nuxt.com) to learn more about Nuxt 
 
 ## Usage `@TODO: This part of the docs incomplete.`
 
-Install the package 
+Install the package and its dependecy
 
 ```
-pnpm add @miclgael/chia
+pnpm add @miclgael/chia @picocss/pico
 ```
 
 Extend the package in your Nuxt config with the `extends` keyword.
