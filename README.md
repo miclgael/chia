@@ -6,7 +6,7 @@
 
 ## [Nuxt 3](https://nuxt.com/), [Storybook (Vite)](https://storybook.js.org/docs/vue/builders/vite), [Vitest](https://vitest.dev/), [Pico CSS](https://picocss.com/) starter layer.
 
-Check out the [Nuxt 3 documentation](https://nuxt.com) to learn more about Nuxt Layers.
+Check out the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/layers) to learn more about Nuxt Layers.
 
 ## Features
 
@@ -19,10 +19,10 @@ Check out the [Nuxt 3 documentation](https://nuxt.com) to learn more about Nuxt 
 
 ## Usage `@TODO: This part of the docs incomplete.`
 
-Install the package 
+Install the package and its dependecy
 
 ```
-pnpm add @miclgael/chia
+pnpm add @picocss/pico
 ```
 
 Extend the package in your Nuxt config with the `extends` keyword.
@@ -30,7 +30,7 @@ Extend the package in your Nuxt config with the `extends` keyword.
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  extends: '@miclgael/chia'
+  extends: 'github:miclgael/chia'
 })
 ```
 
