@@ -6,7 +6,7 @@
 
 ## [Nuxt 3](https://nuxt.com/), [Storybook (Vite)](https://storybook.js.org/docs/vue/builders/vite), [Vitest](https://vitest.dev/), [Pico CSS](https://picocss.com/) starter layer.
 
-Check out the [Nuxt 3 documentation](https://nuxt.com) to learn more about Nuxt Layers.
+Check out the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/layers) to learn more about Nuxt Layers.
 
 ## Features
 
