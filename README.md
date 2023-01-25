@@ -22,7 +22,7 @@ Check out the [Nuxt 3 documentation](https://nuxt.com) to learn more about Nuxt 
 Install the package and its dependecy
 
 ```
-pnpm add @miclgael/chia @picocss/pico
+pnpm add @picocss/pico
 ```
 
 Extend the package in your Nuxt config with the `extends` keyword.
@@ -30,7 +30,7 @@ Extend the package in your Nuxt config with the `extends` keyword.
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  extends: '@miclgael/chia'
+  extends: 'github:miclgael/chia'
 })
 ```
 
