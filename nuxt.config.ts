@@ -16,11 +16,11 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/api/configuration/nuxt-config#css
   css: ['@picocss/pico'],
 
-  // Ignore test and story files when building
-  // https://nuxt.com/docs/api/configuration/nuxt-config#ignore
-  ignore: [
-    '**/**/*.stories.{js,ts,jsx,tsx}',
-    '**/**/*.{spec,test}.{js,ts,jsx,tsx}',
-    '**/**/*.d.ts'
-  ]
+  vite: {
+     build: {
+      rollupOptions: {
+        external: ['c-grid-cell']
+      }
+    }
+  }
 })
