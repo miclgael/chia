@@ -1,9 +1,3 @@
-<template>
-  <div class="grid-cell">
-    <slot />
-  </div>
-</template>
-
 <script setup>
 defineProps({
   /**
@@ -26,6 +20,12 @@ defineProps({
   }
 })
 </script>
+
+<template>
+  <div class="grid-cell">
+    <slot />
+  </div>
+</template>
 
 <style scoped>
 .grid-cell {
