@@ -1,16 +1,16 @@
 <template>
-  <component 
-    :is="element" 
+  <component
+    :is="element"
     :class="[
-      $style.section, 
-      background 
-        ? $style.section__background 
+      $style.section,
+      background
+        ? $style.section__background
         : null
     ]">
-    <div 
+    <div
       :class="[
-        isContainer 
-          ? $style.section__inside 
+        isContainer
+          ? $style.section__inside
           : null
         ]">
 
@@ -39,8 +39,8 @@ const props = defineProps({
    * Add a background color to the section
    */
   background: {
-    type: String,
-    default: '#ffffff'
+    type: String||null,
+    default: null
   },
   /**
    * Text color to be applied to the section
