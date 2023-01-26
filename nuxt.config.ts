@@ -14,13 +14,5 @@ export default defineNuxtConfig({
 
   // Pico minimal CSS framework
   // https://nuxt.com/docs/api/configuration/nuxt-config#css
-  css: ['@picocss/pico'],
-
-  vite: {
-     build: {
-      rollupOptions: {
-        external: ['c-grid-cell']
-      }
-    }
-  }
+  css: ['@picocss/pico']
 })
