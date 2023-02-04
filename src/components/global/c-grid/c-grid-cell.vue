@@ -17,14 +17,19 @@ defineProps({
     validate: (value) => {
       return ['center', 'start', 'end', 'space-between', 'space-around', 'space-evenly'].includes(value)
     }
+  },
+  /* Element name */
+  tag: {
+    type: String,
+    default: 'div'
   }
 })
 </script>
 
 <template>
-  <div class="grid-cell">
+  <component :is="tag"  class="grid-cell">
     <slot />
-  </div>
+  </component>
 </template>
 
 <style scoped>
