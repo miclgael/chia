@@ -1,7 +1,7 @@
 <template>
-  <div class="grid">
+  <component :is="tag" class="grid">
     <slot />
-  </div>
+  </component>
 </template>
 
 <script setup>
@@ -43,6 +43,12 @@ defineProps({
     validate: (value) => {
       return justifyOptions.includes(value)
     }
+  },
+
+  /* Element name */
+  tag: {
+    type: String,
+    default: 'div'
   }
 })
 </script>
