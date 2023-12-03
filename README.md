@@ -1,6 +1,6 @@
 # Chia - Nuxt 3 Layer
 
-> ⚠️ This package is experimental.
+> ⚠️ This repository is now archived, in favour of an upcoming Nuxt module called [Deku](https://github.com/miclgael/deku/).
 
 <img alt="Terrible chia seed iconography" src=".github/screenshots/chia.png" width="96" height="96">
 
